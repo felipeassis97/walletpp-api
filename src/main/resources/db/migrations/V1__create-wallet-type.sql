@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS tb_wallet_type (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    description VARCHAR(255) NOT NULL
+);
